@@ -4,8 +4,9 @@
 
 ## realtime_midi_parser
 - Get the MIDI signal from MIDI keyboard and extract the "note"(not completed)
+- using 0x55(fixed velocity) or 0x90(note ON) as the marker
 
-## writeread_midi_progmeme_to_eeprom
+## writeread_midi_progmem_to_eeprom
 - Write stored MIDI data in the PROGMEM in the form of HEX array into EEPROM, and then read the data from EEPROM
 
 ## MIDI_recorder
