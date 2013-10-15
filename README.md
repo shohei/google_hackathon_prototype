@@ -7,7 +7,10 @@
 - using 0x55(fixed velocity) or 0x90(note ON) as the marker
 
 ## writeread_midi_progmem_to_eeprom
-- Write stored MIDI data in the PROGMEM in the form of HEX array into EEPROM, and then read the data from EEPROM
+- Store the MIDI data in the PROGMEM in the form of HEX array(sounddata.h)
+- Write that data into EEPROM
+- Read that data from EEPROM 
+- Required to improve because EEPROM can store only 1k byte
 
 ## MIDI_recorder
 - Real time MIDI recorder by combining the above two codes(not completed)
